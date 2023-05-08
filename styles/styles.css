@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ececec;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  height: 100vh;
+  perspective: 100px;
+  background: rgb(1, 8, 22);
+  background: -moz-linear-gradient(0deg, rgb(1, 8, 22) 72%, rgb(4, 14, 47) 96%);
+  background: -webkit-linear-gradient(0deg, rgb(1, 8, 22) 72%, rgb(4, 14, 47) 96%);
+  background: linear-gradient(0deg, rgb(1, 8, 22) 72%, rgb(4, 14, 47) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010816",endColorstr="#040e2f",GradientType=1);
+}
+.top::after {
+  background: #16151d;
+  content: "";
+  height: 40rem;
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 90%;
+  transform: rotateZ(-4deg);
+  transform-origin: 0 0;
+  box-shadow: 0 0 60px 80px rgba(28, 29, 92, 0.1843137255);
+}/*# sourceMappingURL=styles.css.map */

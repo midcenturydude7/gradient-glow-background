@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  // min-height: 100vh;
+  // display: grid;
+  // place-content: center;
+  color: #ececec;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  height: 100vh;
+  perspective: 100px;
+  background: rgb(1, 8, 22);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(1, 8, 22, 1) 72%,
+    rgba(4, 14, 47, 1) 96%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(1, 8, 22, 1) 72%,
+    rgba(4, 14, 47, 1) 96%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(1, 8, 22, 1) 72%,
+    rgba(4, 14, 47, 1) 96%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010816",endColorstr="#040e2f",GradientType=1);
+
+  &::after {
+    background: #16151d;
+    content: "";
+    height: 40rem;
+    left: -5%;
+    position: absolute;
+    right: -5%;
+    top: 90%;
+    transform: rotateZ(-4deg);
+    transform-origin: 0 0;
+    // // border-top: 1px solid rgba(54, 187, 248, 0.123);
+    box-shadow: 0 0 60px 80px #1c1d5c2f;
+  }
+}
