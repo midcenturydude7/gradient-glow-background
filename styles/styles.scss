@@ -12,7 +12,6 @@ body {
   // display: grid;
   // place-content: center;
   color: #ececec;
-  background: black;
 }
 
 .wrapper {
@@ -47,12 +46,7 @@ body {
     top: 90%;
     transform: rotateZ(-4deg);
     transform-origin: 0 0;
-    // border-top: 1px solid rgba(54, 187, 248, 0.123);
-    background: linear-gradient(
-      180deg,
-      rgba(200, 194, 241, 1) 38%,
-      rgba(221, 217, 242, 1) 71%
-    );
-    box-shadow: 0 0 80px 120px #5033703f;
+    background: #8b77fc;
+    box-shadow: 0 0 80px 120px #0a0025;
   }
 }

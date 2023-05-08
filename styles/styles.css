@@ -9,7 +9,6 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #ececec;
-  background: black;
 }
 
 .wrapper {
@@ -36,6 +35,6 @@ body {
   top: 90%;
   transform: rotateZ(-4deg);
   transform-origin: 0 0;
-  background: linear-gradient(180deg, rgb(200, 194, 241) 38%, rgb(221, 217, 242) 71%);
-  box-shadow: 0 0 80px 120px rgba(80, 51, 112, 0.2470588235);
+  background: #8b77fc;
+  box-shadow: 0 0 80px 120px #0a0025;
 }/*# sourceMappingURL=styles.css.map */
